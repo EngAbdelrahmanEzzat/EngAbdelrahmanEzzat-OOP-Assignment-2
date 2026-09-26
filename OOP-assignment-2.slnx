@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="OOP-assignment-2/OOP-assignment-2.csproj" />
+  <Project Path="SRP/src/SrpLab.Runner/SrpLab.Runner/SrpLab.Runner.csproj" Id="f0d34a44-13f2-48b7-840b-4f744c088ebc" />
+  <Project Path="SRP/src/SrpLab/SrpLab/SrpLab.csproj" Id="ef5eecf4-5120-4078-8a3a-304fab5086b6" />
 </Solution>
