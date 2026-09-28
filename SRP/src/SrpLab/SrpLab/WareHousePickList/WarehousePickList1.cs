@@ -6,7 +6,7 @@ namespace SrpLab.WareHousePickList
 {
    
 
-    public sealed class WarehousePickList
+    public sealed class WarehousePickList1
     {
         private readonly List<(string Sku, string Aisle, int Bin, int QtyNeeded, int QtyOnHand)> _lines = new();
 

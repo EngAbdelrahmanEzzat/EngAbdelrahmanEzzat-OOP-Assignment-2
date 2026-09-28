@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SrpLab.SubscriptionBilling
 {
-    public sealed class SubscriptionBilling
+    public sealed class SubscriptionBilling1
     {
        
         public string CustomerId { get; }
@@ -13,7 +13,7 @@ namespace SrpLab.SubscriptionBilling
         public DateOnly PeriodEnd { get; }
         public int FailedPayments { get; private set; }
 
-        public SubscriptionBilling(string customerId, decimal monthlyPrice, DateOnly periodStart, DateOnly periodEnd)
+        public SubscriptionBilling1(string customerId, decimal monthlyPrice, DateOnly periodStart, DateOnly periodEnd)
         {
             CustomerId = customerId;
             MonthlyPrice = monthlyPrice;

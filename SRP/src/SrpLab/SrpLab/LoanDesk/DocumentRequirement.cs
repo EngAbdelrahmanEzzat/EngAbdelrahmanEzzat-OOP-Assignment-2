@@ -6,7 +6,7 @@ namespace SrpLab.LoanDesk
 {
     public sealed class DocumentRequirement
     {
-        public IReadOnlyList<string> RequiredDocuments(LoanDesk loan,bool isEligible)
+        public IReadOnlyList<string> RequiredDocuments(LoanDesk1 loan,bool isEligible)
         {
             // Compliance checklist changes with regulation, independently of risk formula.
             var docs = new List<string> { "National ID", "Proof of income (3 months)" };

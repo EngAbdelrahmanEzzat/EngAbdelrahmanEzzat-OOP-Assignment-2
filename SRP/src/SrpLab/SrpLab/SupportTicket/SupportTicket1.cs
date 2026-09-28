@@ -6,7 +6,7 @@ namespace SrpLab.SupportTicket
 {
     
 
-    public sealed class SupportTicket
+    public sealed class SupportTicket1
     {
         public string Id { get; }
         public string Subject { get; private set; }
@@ -16,7 +16,7 @@ namespace SrpLab.SupportTicket
 
         private readonly TicketPriorityCalculator _priorityCalculator; // عشان الكلاس التاني 
 
-        public SupportTicket(
+        public SupportTicket1(
             string id,
             string subject,
             string body,

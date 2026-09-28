@@ -42,4 +42,37 @@ different 5 Responsibilites
  different 5 Responsibilites 
 
 
+ 6. KitchenTicket
+ إدارة/إضافة الـitems والـingredients والـquantity
+ حساب/تجهيز بيانات التذكرة
+ Rendering التذكرة بصيغة الـthermal
+ حساب ال estimatedReadyMinutes
+ حساب ال AllergenDetector
+
+
+7. GradeBook
+تصدير ال Csv
+ال policy لحساب ال Grade
+حساب ال transcriptformat
+حساب ال honorrollpolicy
+والكلاس الاب لل constructor , properties
+
+8. CourseEnrollmentDesk
+اول حاجه هي ال CourseEnrollmentDesk , Rister ,waitlistposition
+Promotefromwaitlist, is seated
+TuitionInvoiceFormatter for Format
+WelcomePacketMarkdown 
+
+9. CheckoutBacket
+CheckoutBasket for ApplyCouponText,EnableGiftwrap...
+CheckoutPricing for subtotal,dicountamount
+وكلاس لحساب الجراند توتال
+وكلاس لحساب ال Giftmessagetotal
+وكلاس لعمل AuthorizePaymentStub
+
+10. AppointmentDesk
+لاس لحساب ال ics
+كلاس لحساب ال IsWithinBusinessHours
+كلاس لل   SmsReminder
+
  

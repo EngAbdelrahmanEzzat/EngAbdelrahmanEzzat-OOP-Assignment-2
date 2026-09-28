@@ -6,7 +6,7 @@ namespace SrpLab.LoanDesk
 {
     public sealed class RiskandEligible
     {
-        public decimal RiskScore(LoanDesk l)
+        public decimal RiskScore(LoanDesk1 l)
         {
             // Risk model will change with risk committee — not with letter templates.
             decimal score = 100m;
@@ -17,7 +17,7 @@ namespace SrpLab.LoanDesk
             return Math.Clamp(score, 0m, 100m);
         }
 
-        public bool IsEligible(LoanDesk loan)
+        public bool IsEligible(LoanDesk1 loan)
         {
             return RiskScore(loan) >= 55m &&
                    loan.CreditScore >= 580;
