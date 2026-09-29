@@ -4,7 +4,7 @@ using LibrarySystem.Staff;
 
 namespace LibrarySystem
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -69,7 +69,27 @@ namespace LibrarySystem
                 Console.WriteLine(ex.Message);
             }
 
-           
+            Console.WriteLine("----------------------------------");
+            List<LibrarySystem.Staff.Staff> staffMembers =
+     new List<LibrarySystem.Staff.Staff>();
+
+            staffMembers.Add(new Librarian(
+                20, "Librarian", "01000000001",
+                new DateOnly(2025, 1, 1), 8000));
+
+            staffMembers.Add(new HeadLibrarian(
+                21, "Head Librarian", "01000000002",
+                new DateOnly(2025, 1, 1), 12000));
+
+            staffMembers.Add(new Shelver(
+                22, "Shelver", "01000000003",
+                new DateOnly(2025, 1, 1), 7000,
+                "A"));
+
+            foreach (LibrarySystem.Staff.Staff staff in staffMembers)
+            {
+                Console.WriteLine(staff.MonthlySalary);
+            }
 
             Console.WriteLine("------------------------------------");
             List<LibraryItem> items = new List<LibraryItem>();
