@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="DesignPatterns/src/PatternsLab.Runner/PatternsLab.Runner/PatternsLab.Runner.csproj" Id="5ec4ebc7-2922-4fb4-8964-10490c88c63c" />
   <Project Path="DesignPatterns/src/PatternsLab/PatternsLab/PatternsLab.csproj" Id="f3083f35-3843-4fee-8670-1d058d9ce2f2" />
+  <Project Path="Inheritance/src/LibrarySystem/LibrarySystem.csproj" Id="67fae3c9-b3d9-4dd0-af1f-2f3aa1e1996c" />
   <Project Path="OOP-assignment-2/OOP-assignment-2.csproj" />
   <Project Path="SRP/src/SrpLab.Runner/SrpLab.Runner/SrpLab.Runner.csproj" Id="f0d34a44-13f2-48b7-840b-4f744c088ebc" />
   <Project Path="SRP/src/SrpLab/SrpLab/SrpLab.csproj" Id="ef5eecf4-5120-4078-8a3a-304fab5086b6" />
