@@ -1,0 +1,24 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+
+
+# Dotnet local tool catalog
+.config/dotnet-tool
+s.json
+

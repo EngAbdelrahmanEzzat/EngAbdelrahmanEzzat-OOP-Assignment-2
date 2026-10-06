@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SrpLab.KitchenTicket
+{
+    // KitchenTicket.cs
+
+
+
+    public sealed class KitchenTicket1
+    {
+        private readonly List<(string Item, List<string> Ingredients, int PrepMinutes)> _items = new();
+
+        public void AddItem(string item, IEnumerable<string> ingredients, int prepMinutes)
+        {
+            _items.Add((item, ingredients.Select(i => i.Trim().ToLowerInvariant()).ToList(), prepMinutes));
+        }
+        public IReadOnlyList<(string Item, List<string> Ingredients, int PrepMinutes)> GetItems() 
+        {
+            return _items;
+        }
+    }
+}
